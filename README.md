@@ -1,3 +1,8 @@
+# Refactoring
+I followed the lesson plan so the code is almost identical. I wandered in two areas: `ENV['propublica_key']` because I hate caps if I don't need them (and `ENV` already feels like a giveaway), and method `members` instead of `members_by_house` because 'house_salad' already deals with house members only.
+
+I will add that this entire exercise is basically the reason I'm in mod 3 again. I haven't fully wrapped my head around running the api call through services, factories, etc... and am not able to create those files with my brain on autopilot. I can create a model or class very quickly without thinking too much about it. This stuff I still have to think about. A lot.
+
 # House Salad Base
 
 This repo is used as a base for the Consuming API lesson taught in Backend Module 3. To complete the lesson you will need to sign-up for an API key from the [ProPublica Congress API](https://projects.propublica.org/api-docs/congress-api/).
